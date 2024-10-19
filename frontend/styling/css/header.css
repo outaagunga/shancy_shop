@@ -1,0 +1,22 @@
+header {
+  background-color: #4caf50; /* Header background color */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.section-1-of-header {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 20px; /* Optional: Add space between the items */
+}
+
+.header-items h3 {
+  margin: 0%;
+  text-decoration: none;
+  color: white;
+}
+
+.header-items h3:hover {
+  background-color: #4dec2d;
+}

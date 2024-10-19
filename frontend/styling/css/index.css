@@ -1,0 +1,13 @@
+/* body styling  */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+div {
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 20px;
+  background-color: aqua;
+}

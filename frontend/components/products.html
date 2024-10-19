@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shancy General Stores - Products</title>
+    <link
+      rel="stylesheet"
+      href="../styling/bootstrap-4.0.0-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <style>
+      #product-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .product {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        flex: 1 1 200px; /*means the item will start at 200 pixels wide, can grow to fill extra space, and can shrink if needed. */
+        max-width: calc(
+          25% - 10px
+        ); /*maximum width of the element will be 25% of its container's width, minus 10 pixels */
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      .product img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Optional hover effect */
+      .product:hover {
+        background-color: #0d98ba;
+        color: whitesmoke;
+      }
+    </style>
+
+    <div id="product-container">
+      <!-- Products will be injected here -->
+    </div>
+
+    <script src="../js/fetch_products.js">
+       src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+1. Header
+Logo
+Navigation bar (links to key sections)
+Search bar
+User account icon (with dropdown for login/signup/logout)
+Cart icon (with item count)
+
+2. Navigation Bar
+Categories menu (dropdowns for subcategories)
+Featured products or collections
+Promotions or special offers
+
+3. Hero Section
+Slideshow or banner for promotions
+Call-to-action buttons
+
+4. Product Listings
+Product cards (image, title, price, rating)
+Filters (category, price range, ratings)
+Sorting options (e.g., newest, highest rated)
+
+5. Product Detail Page
+Product images (gallery)
+Product title and description
+Price and availability
+Size/variant selection
+Add to cart button
+Reviews and ratings
+
+6. Login and Signup Forms
+Login form (email, password, remember me)
+Signup form (name, email, password, confirm password)
+Password recovery option
+
+7. Shopping Cart
+List of added products (with images, quantities, and prices)
+Option to update quantities or remove items
+Total cost calculation
+Checkout button
+
+8. Checkout Page
+Shipping information form
+Payment method selection (credit card, PayPal, etc.)
+Order summary
+Confirmation button
+
+9. User Account Dashboard
+Profile information (edit personal details)
+Order history
+Wishlist
+Address book
+
+10. Footer
+Links to about us, contact us, privacy policy, and terms of service
+Social media icons
+Newsletter signup form
+
+11. Notifications/Alerts
+Success and error messages (e.g., for login, adding to cart)
+
+12. Search Results Page
+Display of search results (similar to product listings)
+Option to refine search results
+
+13. Wishlist
+List of saved products
+Option to move items to cart
+
+14. Loading Spinner/State
+To indicate loading processes (e.g., while fetching data)
+
+15. 404 Page
+User-friendly error page for not found resources
+
+16. Modal/Popup Components
+For quick views of products
+Confirmations (e.g., delete item from cart)
+
+17. Reviews and Ratings Component
+User-generated reviews for products
+Star rating system
+
+18. Related Products/Recommendations
+Suggestions based on browsing history or current product
+
+19. FAQs Section
+Common questions and answers related to shipping, returns, etc.
+
+20. Blog/Content Section
+Articles related to products or industry insights 
+
+
+<div id="div2" class="divs">
+      <h2>Featured Goods</h2>
+     
+      <section id="product-container" class="product-grid">
+        <!-- Products will be rendered here -->
+      </section>
+    </div>
