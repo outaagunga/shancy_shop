@@ -8,6 +8,7 @@ async function loadComponent(url, elementId) {
       );
     }
     const data = await response.text();
+
     const element = document.getElementById(elementId);
     if (element) {
       element.innerHTML = data;
@@ -29,9 +30,9 @@ function initializeComponents(components) {
 // Execute on window load
 window.onload = function () {
   const components = [
-    // { url: "header.html", elementId: "header" },
+    { url: "/static/components/header.html", elementId: "header" },
     {
-      url: "shancy_ecommerce/components/products.html",
+      url: "/static/components/products.html",
       elementId: "products_listing",
     },
     // { url: "footer.html", elementId: "footer" },
